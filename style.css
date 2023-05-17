@@ -25,3 +25,8 @@ section{
 .portfolio{
     height: 100px;
 }
+.form{
+    text-align: start;
+    height: 350px;
+    border: 1px solid black;
+}
