@@ -2,17 +2,41 @@
 .navbar-collapse {
     flex-grow: 0;
 }
-#bgc-jumbo{
+#jumbo{
     background-color: #1abc9c;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+}
+#portfolio{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.portfolio{
+    padding-top: 40px;
 }
 .avatarimg{
     height: 250px;
+    
 }
 section{
     border: 1px solid black;
 }
-.avatarimg, .start, .star, .skills{
-    border: 1px solid black;
+.divider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divider i{
+    padding: 20px 5px 20px 5px;
+}
+.line{
+    border: 2px solid;
+    width: 75px;
+    border-radius: 20px;
+}
+ .skills{
+   font-size: 1.2rem;
 }
 .img{
     height: 400px;
@@ -21,9 +45,7 @@ section{
 img{
     max-height: 100%;
 }
-.portfolio{
-    height: 100px;
-}
+
 .form{
     text-align: start;
     height: 350px;
