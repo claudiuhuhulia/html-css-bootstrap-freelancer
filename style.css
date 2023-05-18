@@ -38,12 +38,11 @@ section{
  .skills{
    font-size: 1.2rem;
 }
-.img{
-    height: 400px;
-    border: 1px solid black;
-}
+
 img{
     max-height: 100%;
+    width: 100%;
+    border-radius: 15px;
 }
 
 .form{
