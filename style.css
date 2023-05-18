@@ -10,11 +10,9 @@
 .bgc{
     background-color: #1abc9c;
 }
-#portfolio{
+#portfolio, #contact{
     font-size: 1.5rem;
     font-weight: 600;
-}
-.portfolio{
     padding-top: 40px;
 }
 .avatarimg{
@@ -47,18 +45,27 @@ section{
  .skills{
    font-size: 1.2rem;
 }
-
+#contact .btn-primary {
+    color: #fff;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+}
 img{
     max-height: 100%;
     width: 100%;
     border-radius: 15px;
 }
 
-.form{
-    text-align: start;
-    height: 350px;
-    border: 1px solid black;
+#contact .form-control {
+    border-radius: 0;
 }
+#contact textarea{
+    height: 200px;
+}
+#contact ::placeholder{
+    color: black;
+}
+
 footer{
     background-color: #3a546d;
 }
