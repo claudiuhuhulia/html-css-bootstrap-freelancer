@@ -1,10 +1,6 @@
 
-header{
-    background-color: #2c3e50;
-    height: 100px;
-}
-.col{
-    border: 1px solid black;
+.navbar-collapse {
+    flex-grow: 0;
 }
 #bgc-jumbo{
     background-color: #1abc9c;
@@ -21,6 +17,9 @@ section{
 .img{
     height: 400px;
     border: 1px solid black;
+}
+img{
+    max-height: 100%;
 }
 .portfolio{
     height: 100px;
