@@ -3,10 +3,12 @@
     flex-grow: 0;
 }
 #jumbo{
-    background-color: #1abc9c;
     color: white;
     font-size: 2rem;
     font-weight: 600;
+}
+.bgc{
+    background-color: #1abc9c;
 }
 #portfolio{
     font-size: 1.5rem;
@@ -16,8 +18,15 @@
     padding-top: 40px;
 }
 .avatarimg{
-    height: 250px;
-    
+    height: 250px; 
+}
+#about{
+    font-size: 1.3rem;
+    color: white;
+}
+.btn-outline-secondary {
+    color: white;
+    border-color: white;
 }
 section{
     border: 1px solid black;
